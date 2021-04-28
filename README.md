@@ -1,12 +1,11 @@
 # Arithmetic Geometric Mean
 
-In mathematics, the arithmetic–geometric mean (AGM) of two positive real numbers x and y is defined as follows:
+The arithmetic-geometric mean agm(a,b) of two numbers a and b (often also written AGM(a,b) or M(a,b)) is defined by starting with a_0=a and b_0=b, then iterating
 
-Call x and y a0 and g0:
-
-{\displaystyle {\begin{aligned}a_{0}&=x,\\g_{0}&=y.\end{aligned}}}{\displaystyle {\begin{aligned}a_{0}&=x,\\g_{0}&=y.\end{aligned}}}
-Then define the two interdependent sequences (an) and (gn) as
-
-{\displaystyle {\begin{aligned}a_{n+1}&={\tfrac {1}{2}}(a_{n}+g_{n}),\\g_{n+1}&={\sqrt {a_{n}g_{n}}}\,.\end{aligned}}}{\displaystyle {\begin{aligned}a_{n+1}&={\tfrac {1}{2}}(a_{n}+g_{n}),\\g_{n+1}&={\sqrt {a_{n}g_{n}}}\,.\end{aligned}}}
+a_(n+1)	=	1/2(a_n+b_n)	
+b_(n+1)	=	sqrt(a_nb_n)	
 
 until a_n=b_n to the desired precision.
+
+## Plotting bar graph for respective pair
+![graph](agm.png)
