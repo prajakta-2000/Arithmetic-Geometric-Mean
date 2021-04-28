@@ -8,4 +8,4 @@ b_(n+1)	=	sqrt(a_nb_n)
 until a_n=b_n to the desired precision.
 
 ## Plotting bar graph for respective pair
-![graph](agm.png)
+![graph](AGM.png)
