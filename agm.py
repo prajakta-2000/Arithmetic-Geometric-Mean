@@ -14,7 +14,7 @@ def bargraph(pair,agm):
     plt.xlabel("Pairs")
     plt.ylabel("Arithmetic Geometric Mean")
     plt.title("AGM")
-    plt.savefig("collatz_AGM.png",bbox_inches="tight",dpi=600)
+    plt.savefig("AGM.png",bbox_inches="tight",dpi=600)
     plt.show()
 
 if __name__=="__main__":
