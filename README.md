@@ -8,4 +8,4 @@ b_(n+1)	=	sqrt(a_nb_n)
 until a_n=b_n to the desired precision.
 
 ## 3D Scatter Plot
-![graph](AGM_3S.png)
+![graph](AGM_3D.png)
